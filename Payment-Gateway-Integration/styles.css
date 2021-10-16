@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.nav-bar {
+  padding: 1.5rem 0 1.5rem 0;
+  background: rgba(36, 26, 26, 0.096);
+  height: 8vh;
+  width: 100%;
+  position: fixed;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #00a82db0;
+  transition: 0.4s all ease-in-out;
+}
+
+.heading-txt {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.heading-txt a {
+  text-decoration: none;
+  color: white;
+}
+.heading-txt a:hover {
+  color: #00a82db0;
+  transition: 0.4s all ease-in-out;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(assets/do.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.hero-title span {
+  color: #00a82d;
+}
+
+.hero-container {
+  height: 45vh;
+}
+
+.hero-para {
+  margin-top: 1rem;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.donate-btn {
+  margin: 3rem auto;
+  height: 3rem;
+  width: 15rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #00a82db0;
+  border: none;
+  border-radius: 2px;
+  color: #161616;
+  cursor: pointer;
+}
+.donate-btn a {
+  color: black;
+  text-decoration: none;
+}
+.donate-btn a:hover {
+  color: white;
+  transition: 0.4s all ease-in-out;
+} /*# sourceMappingURL=styles.css.map */
+
+footer {
+  max-width: 2000px;
+  height: 80px;
+
+  margin: 0 auto;
+  background-color: rebeccapurple;
+}
+
+.footer-container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright p {
+  font-weight: bold;
+  font-style: Monospace;
+  text-align: center;
+  padding: 30px;
+
+  max-height: 40px;
+  color: #fff;
+}
